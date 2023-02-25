@@ -43,10 +43,9 @@ function LoginVeiw() {
   const handeleZalo = ()=>{
     var code_verifier = makeid
     var code_challenge = hexToBase64(sha256(code_verifier))
-    var link = `https://oauth.zaloapp.com/v4/permission?app_id=456333988957607221&redirect_uri=https://react-app-gray-alpha.vercel.app&code_challenge=${code_challenge}&state=yes`
-    console.log(link)
-    window.open(link)
+    var link = `https://oauth.zaloapp.com/v4/permission?app_id=456333988957607221&redirect_uri=https://react-app-gray-alpha.vercel.app/success&code_challenge=${code_challenge}&state=yes`
 
+    window.open(link)
   }
 
 

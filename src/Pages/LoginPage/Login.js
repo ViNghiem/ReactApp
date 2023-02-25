@@ -1,9 +1,5 @@
 
-
-
-
-
-import LoginVeiw from '../components/Auth/Login'
+import {LoginVeiw} from '../../components/index'
 function LoginPage() {
   return (
     <div>

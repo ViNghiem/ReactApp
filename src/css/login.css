@@ -145,3 +145,7 @@ button {
 .admin-top {
     height: 90px;
 }
+
+.form-login img {
+    border-radius: 50%;
+}

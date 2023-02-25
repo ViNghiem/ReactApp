@@ -1,17 +1,17 @@
 
 // import Home from '../Pages/Home'
 
-import Login from '../Pages/Login'
-import Register from '../Pages/Register'
+import { LoginPage } from '../Pages'
+import { RegisterPage ,AuthZalo} from '../Pages'
 // import Admin from '../AdminVeiw/Admin'
 
 
 const publiccRouter =[
  
-  {path:'/',component:Login},
-  {path:'/Login',component:Login},
- 
-  {path:'/register',component:Register}
+  {path:'/',component:LoginPage},
+  {path:'/Login',component:LoginPage},
+  {path:'/success',component:AuthZalo},
+  {path:'/register',component:RegisterPage}
 
 ]
 
